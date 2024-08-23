@@ -1,4 +1,4 @@
-# Desafio_T-
+# Desafio_T- Día 2
 
 En un emprendimiento dedicado a venta de té de hoja artesanal, se puede comprar té de
 distintos sabores (té negro, té verde, e infusión de hierbas) y en 2 formatos (300 gr y 500 gr).
