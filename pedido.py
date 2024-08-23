@@ -19,8 +19,11 @@ formato = validate([500, 300],int(
 
 #tiempo, recomendacion = Te.retorna_precio(sabor )
 #precio = Te.retorna_tiempo_y_recomendacion(formato)
-precio = Te.retorna_precio(formato)
-tiempo, recomendacion = Te.retorna_tiempo_y_recomendacion(sabor)
+#precio = Te.retorna_precio(formato)
+#tiempo, recomendacion = Te.retorna_tiempo_y_recomendacion(sabor)
+sabores_te= Te()
+tiempo, recomendacion = sabores_te.retorna_tiempo_y_recomendacion(sabor)
+precio = sabores_te.retorna_precio(formato)
 
 if sabor == 1:
     sabor_texto = "Té negro"
